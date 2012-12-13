@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Strict//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+   <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+
+   <title>SASS/Compass Generated CSS3-Only Animated Spinner Test</title>
+
+   <script src="http://code.jquery.com/jquery.js"></script>
+   <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+
+   <link rel="stylesheet" type="text/css" href="css/css-spinner.css" />
+   <link rel="stylesheet" type="text/css" href="css/css-spinner-test.css" />
+
+   <style>
+      body { font-family: sans-serif,arial; }
+      .main { font-size: 10pt; width: 600px; margin: auto; }
+      .wrapper { margin: 10px; display: inline-block; width: 110px; height: 110px; }
+      .spinner { margin: auto; }
+      .label { font-size: 8pt; text-align: center; margin-bottom: 10px; }
+   </style>
+
+</head>
+<body>
+
+<div class="main">
+   <h3>CSS3-Only Spinner Tests</h3>
+
+   <div>
+      <div>
+        This is the default spinner created without any arguments to the mixin.  It is defined in css-spinner.css.
+        If you do not want to use Sass/Compass, you can just use the CSS file directly.
+      </div>
+
+      <div class="wrapper">
+         <div class="label">@include spinner()</div>
+         <div class="spinner">
+            <div class="circle"></div>
+            <div class="wedge"></div>
+            <div class="arc"></div>
+         </div>
+      </div>
+   </div>
+
+   <div>
+      <div>
+        These are tests using different sizes.  css-spinner-test.css contains these definitions.  Each was created using
+        the arguements to the mixin as labeled below.
+      </div>
+
+      <div class="wrapper">
+         <div class="label">@include spinner(15)</div>
+         <div class="spinner size15">
+            <div class="circle"></div>
+            <div class="wedge"></div>
+            <div class="arc"></div>
+         </div>
+      </div>
+
+      <div class="wrapper">
+         <div class="label">@include spinner(35)</div>
+         <div class="spinner size35">
+            <div class="circle"></div>
+            <div class="wedge"></div>
+            <div class="arc"></div>
+         </div>
+      </div>
+
+      <div class="wrapper">
+         <div class="label">@include spinner(55)</div>
+         <div class="spinner size55">
+            <div class="circle"></div>
+            <div class="wedge"></div>
+            <div class="arc"></div>
+         </div>
+      </div>
+
+   </div>
+</div>
+
+</body>
+</html>

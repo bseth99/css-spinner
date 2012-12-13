@@ -1,0 +1,67 @@
+@import "compass/css3";
+@import "animation";
+
+@mixin spinner($name: null) {
+
+   $class: "";
+   @if $name { $class: ".size#{$name}"; } @else { $name: 35; };
+
+   $size: $name + 0px;
+   $border: 10 * $size / 80;
+
+   .spinner#{$class} {
+      position: relative;
+      height: $size+$border*2;
+      width: $size+$border*2;
+   }
+
+   .spinner#{$class} > div {
+      position: absolute;
+      border-style: solid;
+      background-color: transparent;
+   }
+
+   .spinner#{$class} .circle {
+      width: $size;
+      height: $size;
+      border: {
+         width: $border;
+         color: #555;
+      }
+      @include border-radius($size);
+   }
+
+   .spinner#{$class} .wedge {
+      width: 0;
+      height: 0;
+      border: {
+         width: $size/2+$border;
+         color: #555 transparent transparent transparent;
+      }
+      @include border-radius($size/2+$border);
+      @include opacity(0.4);
+      @include animation(spinleft 750ms linear 0s infinite);
+   }
+
+   .spinner#{$class} .arc {
+      width: $size;
+      height: $size;
+      border: {
+         width: $border;
+         color: transparent transparent #999 transparent;
+      }
+      @include border-radius($size);
+      @include animation(spinright 750ms linear 0s infinite);
+   }
+
+}
+
+@include keyframes(spinleft) {
+    from { @include transform(rotate(0deg)); }
+    to { @include transform(rotate(-360deg)); }
+}
+
+@include keyframes(spinright) {
+    from { @include transform(rotate(0deg)); }
+    to { @include transform(rotate(360deg)); }
+}
