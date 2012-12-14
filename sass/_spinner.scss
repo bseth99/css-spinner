@@ -7,7 +7,14 @@
    @if $name { $class: ".size#{$name}"; } @else { $name: 35; };
 
    $size: $name + 0px;
-   $border: 10 * $size / 80;
+
+   // Need to work with whole numbers
+   // when divided by 2, otherwise the wedge
+   // will be offset from the center which is distracting
+   @if $size%2 > 0 { $size: $size+1; };
+
+   $border: ceil(10 * $size / 80);
+   $half: $size/2;
 
    .spinner#{$class} {
       position: relative;
@@ -35,12 +42,47 @@
       width: 0;
       height: 0;
       border: {
-         width: $size/2+$border;
-         color: #555 transparent transparent transparent;
+         width: $half+$border;
+         color: #999 transparent transparent transparent;
       }
-      @include border-radius($size/2+$border);
-      @include opacity(0.4);
-      @include animation(spinleft 750ms linear 0s infinite);
+      @include opacity(0.6);
+      @include border-radius($half+$border);
+      @include animation(spinright 1000ms linear 0s infinite);
+
+
+      // This does create a minor artifact in FF.  The idea was
+      // to adjust the size of the wedge by sliding another semi-circle
+      // over it to make it look smaller.  There's also another
+      // segment that appears to be chasing the darker wedge.
+      // comment it out or remove this section if you don't like it.
+      // or, even better, add a parameter to the mixin to not use it.
+
+      &:before, &:after {
+         content: ' ';
+         position: absolute;
+         margin: 0;
+         top: -1*($half+$border);
+         left: -1*($half+$border);
+         width: 0;
+         height: 0;
+         border: {
+            style: solid;
+            width: $half+$border;
+         }
+         @include border-radius($half+$border);
+      }
+
+      &:before {
+         @include opacity(0.4);
+         border-color: #ccc transparent transparent transparent;
+         @include transform(rotate(-70deg));
+      }
+
+      &:after {
+         border-color: transparent #fff #fff #fff;
+         @include transform(rotate(-50deg));
+      }
+
    }
 
    .spinner#{$class} .arc {
@@ -48,10 +90,10 @@
       height: $size;
       border: {
          width: $border;
-         color: transparent transparent #999 transparent;
+         color: transparent transparent #bbb transparent;
       }
       @include border-radius($size);
-      @include animation(spinright 750ms linear 0s infinite);
+      @include animation(spinleft 750ms linear 0s infinite);
    }
 
 }

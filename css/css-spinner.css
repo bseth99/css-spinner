@@ -116,8 +116,8 @@
 
 .spinner {
   position: relative;
-  height: 43.75px;
-  width: 43.75px;
+  height: 46px;
+  width: 46px;
 }
 
 .spinner > div {
@@ -127,49 +127,83 @@
 }
 
 .spinner .circle {
-  width: 35px;
-  height: 35px;
-  border-width: 4.375px;
+  width: 36px;
+  height: 36px;
+  border-width: 5px;
   border-color: #555;
-  -webkit-border-radius: 35px;
-  -moz-border-radius: 35px;
-  -ms-border-radius: 35px;
-  -o-border-radius: 35px;
-  border-radius: 35px;
+  -webkit-border-radius: 36px;
+  -moz-border-radius: 36px;
+  -ms-border-radius: 36px;
+  -o-border-radius: 36px;
+  border-radius: 36px;
 }
 
 .spinner .wedge {
   width: 0;
   height: 0;
-  border-width: 21.875px;
-  border-color: #555 transparent transparent transparent;
-  -webkit-border-radius: 21.875px;
-  -moz-border-radius: 21.875px;
-  -ms-border-radius: 21.875px;
-  -o-border-radius: 21.875px;
-  border-radius: 21.875px;
+  border-width: 23px;
+  border-color: #999 transparent transparent transparent;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  -o-border-radius: 23px;
+  border-radius: 23px;
+  -webkit-animation: spinright 1000ms linear 0s infinite;
+  -moz-animation: spinright 1000ms linear 0s infinite;
+  -ms-animation: spinright 1000ms linear 0s infinite;
+  -o-animation: spinright 1000ms linear 0s infinite;
+  animation: spinright 1000ms linear 0s infinite;
+}
+.spinner .wedge:before, .spinner .wedge:after {
+  content: ' ';
+  position: absolute;
+  margin: 0;
+  top: -23px;
+  left: -23px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 23px;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  -o-border-radius: 23px;
+  border-radius: 23px;
+}
+.spinner .wedge:before {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
   opacity: 0.4;
+  border-color: #ccc transparent transparent transparent;
+  -webkit-transform: rotate(-70deg);
+  -moz-transform: rotate(-70deg);
+  -ms-transform: rotate(-70deg);
+  -o-transform: rotate(-70deg);
+  transform: rotate(-70deg);
+}
+.spinner .wedge:after {
+  border-color: transparent #fff #fff #fff;
+  -webkit-transform: rotate(-50deg);
+  -moz-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  -o-transform: rotate(-50deg);
+  transform: rotate(-50deg);
+}
+
+.spinner .arc {
+  width: 36px;
+  height: 36px;
+  border-width: 5px;
+  border-color: transparent transparent #bbb transparent;
+  -webkit-border-radius: 36px;
+  -moz-border-radius: 36px;
+  -ms-border-radius: 36px;
+  -o-border-radius: 36px;
+  border-radius: 36px;
   -webkit-animation: spinleft 750ms linear 0s infinite;
   -moz-animation: spinleft 750ms linear 0s infinite;
   -ms-animation: spinleft 750ms linear 0s infinite;
   -o-animation: spinleft 750ms linear 0s infinite;
   animation: spinleft 750ms linear 0s infinite;
-}
-
-.spinner .arc {
-  width: 35px;
-  height: 35px;
-  border-width: 4.375px;
-  border-color: transparent transparent #999 transparent;
-  -webkit-border-radius: 35px;
-  -moz-border-radius: 35px;
-  -ms-border-radius: 35px;
-  -o-border-radius: 35px;
-  border-radius: 35px;
-  -webkit-animation: spinright 750ms linear 0s infinite;
-  -moz-animation: spinright 750ms linear 0s infinite;
-  -ms-animation: spinright 750ms linear 0s infinite;
-  -o-animation: spinright 750ms linear 0s infinite;
-  animation: spinright 750ms linear 0s infinite;
 }
