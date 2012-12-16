@@ -18,6 +18,7 @@
       position: relative;
       width: $size;
       height: $size;
+      @include translateZ(0);
    }
 
    .spinner.dashes#{$class} > div {

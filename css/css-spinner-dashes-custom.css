@@ -2,6 +2,11 @@
   position: relative;
   width: 16px;
   height: 16px;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .spinner.dashes.size15 > div {
@@ -407,6 +412,11 @@
   position: relative;
   width: 36px;
   height: 36px;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .spinner.dashes.size35 > div {
@@ -812,6 +822,11 @@
   position: relative;
   width: 56px;
   height: 56px;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .spinner.dashes.size55 > div {
@@ -1217,6 +1232,11 @@
   position: relative;
   width: 36px;
   height: 36px;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .spinner.dashes.eight > div {
@@ -1596,6 +1616,11 @@
   position: relative;
   width: 36px;
   height: 36px;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .spinner.dashes.twelve > div {
@@ -2027,6 +2052,11 @@
   position: relative;
   width: 36px;
   height: 36px;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .spinner.dashes.orange > div {
