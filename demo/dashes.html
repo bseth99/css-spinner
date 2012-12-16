@@ -1,0 +1,158 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Strict//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+   <title>CSS3-Only Animated Spinner Test - Dashes</title>
+
+
+   <link rel="stylesheet" type="text/css" href="demo.css" />
+   <link rel="stylesheet" type="text/css" href="../css/css-spinner-dashes.css" />
+   <link rel="stylesheet" type="text/css" href="../css/css-spinner-dashes-custom.css" />
+
+</head>
+<body>
+
+<div class="main">
+   <h3>CSS3-Only Spinner Tests - Dashes</h3>
+
+   <div>
+      <div>
+        This is the default spinner created without any arguments to the mixin.  It is defined in css-spinner-dashes.css.
+        If you do not want to use Sass/Compass, you can just use the CSS file directly.
+      </div>
+
+      <div class="wrapper">
+         <div class="label">@include spinner-dashes()</div>
+         <div class="spinner dashes">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
+      </div>
+   </div>
+
+   <div>
+      <div>
+        These are tests using different sizes.  css-spinner-dashes-custom.css contains these definitions.  Each was created using
+        the arguements to the mixin as labeled below.
+      </div>
+
+      <div class="wrapper">
+         <div class="label">@include spinner-dashes("size15", 15)</div>
+         <div class="spinner dashes size15">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
+      </div>
+
+      <div class="wrapper">
+         <div class="label">@include spinner-dashes("size35", 35)</div>
+         <div class="spinner dashes size35">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
+      </div>
+
+      <div class="wrapper">
+         <div class="label">@include spinner-dashes("size55", 55)</div>
+         <div class="spinner dashes size55">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
+      </div>
+
+   </div>
+
+   <div>
+      <div>
+        These are tests using the same size but using different colors and adjusting the number of balls.
+        css-spinner-dashes-custom.css also contains these definitions.  Each was created using
+        the arguements to the mixin as labeled below.
+      </div>
+
+      <div class="wrapper">
+         <div class="label">@include spinner-dashes("eight", 35, 8)</div>
+         <div class="spinner dashes eight">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
+      </div>
+
+      <div class="wrapper">
+         <div class="label">@include spinner-dashes("twelve", 35, 12)</div>
+         <div class="spinner dashes twelve">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
+      </div>
+
+      <div class="wrapper">
+         <div class="label">@include spinner-dashes("orange", 35, 10, orange)</div>
+         <div class="spinner dashes orange">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
+      </div>
+
+   </div>
+</div>
+
+</body>
+</html>

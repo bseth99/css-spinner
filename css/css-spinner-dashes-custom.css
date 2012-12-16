@@ -1,0 +1,2429 @@
+.spinner.dashes.size15 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.spinner.dashes.size15 > div {
+  position: absolute;
+  width: 2px;
+  height: 5px;
+  top: 0;
+  left: 7px;
+  background-color: transparent;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transform-origin: 1px 8px;
+  -moz-transform-origin: 1px 8px;
+  -ms-transform-origin: 1px 8px;
+  -o-transform-origin: 1px 8px;
+  transform-origin: 1px 8px;
+  -webkit-animation-name: hashes-lightensize15;
+  -moz-animation-name: hashes-lightensize15;
+  -ms-animation-name: hashes-lightensize15;
+  -o-animation-name: hashes-lightensize15;
+  animation-name: hashes-lightensize15;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 1000ms;
+  -moz-animation-duration: 1000ms;
+  -ms-animation-duration: 1000ms;
+  -o-animation-duration: 1000ms;
+  animation-duration: 1000ms;
+}
+
+.spinner.dashes.size15 > div:nth-of-type(1) {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation-delay: 100ms;
+  -moz-animation-delay: 100ms;
+  -ms-animation-delay: 100ms;
+  -o-animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+
+.spinner.dashes.size15 > div:nth-of-type(2) {
+  -webkit-transform: rotate(36deg);
+  -moz-transform: rotate(36deg);
+  -ms-transform: rotate(36deg);
+  -o-transform: rotate(36deg);
+  transform: rotate(36deg);
+  -webkit-animation-delay: 200ms;
+  -moz-animation-delay: 200ms;
+  -ms-animation-delay: 200ms;
+  -o-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+.spinner.dashes.size15 > div:nth-of-type(3) {
+  -webkit-transform: rotate(72deg);
+  -moz-transform: rotate(72deg);
+  -ms-transform: rotate(72deg);
+  -o-transform: rotate(72deg);
+  transform: rotate(72deg);
+  -webkit-animation-delay: 300ms;
+  -moz-animation-delay: 300ms;
+  -ms-animation-delay: 300ms;
+  -o-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+
+.spinner.dashes.size15 > div:nth-of-type(4) {
+  -webkit-transform: rotate(108deg);
+  -moz-transform: rotate(108deg);
+  -ms-transform: rotate(108deg);
+  -o-transform: rotate(108deg);
+  transform: rotate(108deg);
+  -webkit-animation-delay: 400ms;
+  -moz-animation-delay: 400ms;
+  -ms-animation-delay: 400ms;
+  -o-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.spinner.dashes.size15 > div:nth-of-type(5) {
+  -webkit-transform: rotate(144deg);
+  -moz-transform: rotate(144deg);
+  -ms-transform: rotate(144deg);
+  -o-transform: rotate(144deg);
+  transform: rotate(144deg);
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -ms-animation-delay: 500ms;
+  -o-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+
+.spinner.dashes.size15 > div:nth-of-type(6) {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-animation-delay: 600ms;
+  -moz-animation-delay: 600ms;
+  -ms-animation-delay: 600ms;
+  -o-animation-delay: 600ms;
+  animation-delay: 600ms;
+}
+
+.spinner.dashes.size15 > div:nth-of-type(7) {
+  -webkit-transform: rotate(216deg);
+  -moz-transform: rotate(216deg);
+  -ms-transform: rotate(216deg);
+  -o-transform: rotate(216deg);
+  transform: rotate(216deg);
+  -webkit-animation-delay: 700ms;
+  -moz-animation-delay: 700ms;
+  -ms-animation-delay: 700ms;
+  -o-animation-delay: 700ms;
+  animation-delay: 700ms;
+}
+
+.spinner.dashes.size15 > div:nth-of-type(8) {
+  -webkit-transform: rotate(252deg);
+  -moz-transform: rotate(252deg);
+  -ms-transform: rotate(252deg);
+  -o-transform: rotate(252deg);
+  transform: rotate(252deg);
+  -webkit-animation-delay: 800ms;
+  -moz-animation-delay: 800ms;
+  -ms-animation-delay: 800ms;
+  -o-animation-delay: 800ms;
+  animation-delay: 800ms;
+}
+
+.spinner.dashes.size15 > div:nth-of-type(9) {
+  -webkit-transform: rotate(288deg);
+  -moz-transform: rotate(288deg);
+  -ms-transform: rotate(288deg);
+  -o-transform: rotate(288deg);
+  transform: rotate(288deg);
+  -webkit-animation-delay: 900ms;
+  -moz-animation-delay: 900ms;
+  -ms-animation-delay: 900ms;
+  -o-animation-delay: 900ms;
+  animation-delay: 900ms;
+}
+
+.spinner.dashes.size15 > div:nth-of-type(10) {
+  -webkit-transform: rotate(324deg);
+  -moz-transform: rotate(324deg);
+  -ms-transform: rotate(324deg);
+  -o-transform: rotate(324deg);
+  transform: rotate(324deg);
+  -webkit-animation-delay: 1000ms;
+  -moz-animation-delay: 1000ms;
+  -ms-animation-delay: 1000ms;
+  -o-animation-delay: 1000ms;
+  animation-delay: 1000ms;
+}
+
+@-moz-keyframes hashes-lightensize15 {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes hashes-lightensize15 {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@-o-keyframes hashes-lightensize15 {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@-ms-keyframes hashes-lightensize15 {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@keyframes hashes-lightensize15 {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+.spinner.dashes.size35 {
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+
+.spinner.dashes.size35 > div {
+  position: absolute;
+  width: 4px;
+  height: 11px;
+  top: 0;
+  left: 16px;
+  background-color: transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transform-origin: 2px 18px;
+  -moz-transform-origin: 2px 18px;
+  -ms-transform-origin: 2px 18px;
+  -o-transform-origin: 2px 18px;
+  transform-origin: 2px 18px;
+  -webkit-animation-name: hashes-lightensize35;
+  -moz-animation-name: hashes-lightensize35;
+  -ms-animation-name: hashes-lightensize35;
+  -o-animation-name: hashes-lightensize35;
+  animation-name: hashes-lightensize35;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 1000ms;
+  -moz-animation-duration: 1000ms;
+  -ms-animation-duration: 1000ms;
+  -o-animation-duration: 1000ms;
+  animation-duration: 1000ms;
+}
+
+.spinner.dashes.size35 > div:nth-of-type(1) {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation-delay: 100ms;
+  -moz-animation-delay: 100ms;
+  -ms-animation-delay: 100ms;
+  -o-animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+
+.spinner.dashes.size35 > div:nth-of-type(2) {
+  -webkit-transform: rotate(36deg);
+  -moz-transform: rotate(36deg);
+  -ms-transform: rotate(36deg);
+  -o-transform: rotate(36deg);
+  transform: rotate(36deg);
+  -webkit-animation-delay: 200ms;
+  -moz-animation-delay: 200ms;
+  -ms-animation-delay: 200ms;
+  -o-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+.spinner.dashes.size35 > div:nth-of-type(3) {
+  -webkit-transform: rotate(72deg);
+  -moz-transform: rotate(72deg);
+  -ms-transform: rotate(72deg);
+  -o-transform: rotate(72deg);
+  transform: rotate(72deg);
+  -webkit-animation-delay: 300ms;
+  -moz-animation-delay: 300ms;
+  -ms-animation-delay: 300ms;
+  -o-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+
+.spinner.dashes.size35 > div:nth-of-type(4) {
+  -webkit-transform: rotate(108deg);
+  -moz-transform: rotate(108deg);
+  -ms-transform: rotate(108deg);
+  -o-transform: rotate(108deg);
+  transform: rotate(108deg);
+  -webkit-animation-delay: 400ms;
+  -moz-animation-delay: 400ms;
+  -ms-animation-delay: 400ms;
+  -o-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.spinner.dashes.size35 > div:nth-of-type(5) {
+  -webkit-transform: rotate(144deg);
+  -moz-transform: rotate(144deg);
+  -ms-transform: rotate(144deg);
+  -o-transform: rotate(144deg);
+  transform: rotate(144deg);
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -ms-animation-delay: 500ms;
+  -o-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+
+.spinner.dashes.size35 > div:nth-of-type(6) {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-animation-delay: 600ms;
+  -moz-animation-delay: 600ms;
+  -ms-animation-delay: 600ms;
+  -o-animation-delay: 600ms;
+  animation-delay: 600ms;
+}
+
+.spinner.dashes.size35 > div:nth-of-type(7) {
+  -webkit-transform: rotate(216deg);
+  -moz-transform: rotate(216deg);
+  -ms-transform: rotate(216deg);
+  -o-transform: rotate(216deg);
+  transform: rotate(216deg);
+  -webkit-animation-delay: 700ms;
+  -moz-animation-delay: 700ms;
+  -ms-animation-delay: 700ms;
+  -o-animation-delay: 700ms;
+  animation-delay: 700ms;
+}
+
+.spinner.dashes.size35 > div:nth-of-type(8) {
+  -webkit-transform: rotate(252deg);
+  -moz-transform: rotate(252deg);
+  -ms-transform: rotate(252deg);
+  -o-transform: rotate(252deg);
+  transform: rotate(252deg);
+  -webkit-animation-delay: 800ms;
+  -moz-animation-delay: 800ms;
+  -ms-animation-delay: 800ms;
+  -o-animation-delay: 800ms;
+  animation-delay: 800ms;
+}
+
+.spinner.dashes.size35 > div:nth-of-type(9) {
+  -webkit-transform: rotate(288deg);
+  -moz-transform: rotate(288deg);
+  -ms-transform: rotate(288deg);
+  -o-transform: rotate(288deg);
+  transform: rotate(288deg);
+  -webkit-animation-delay: 900ms;
+  -moz-animation-delay: 900ms;
+  -ms-animation-delay: 900ms;
+  -o-animation-delay: 900ms;
+  animation-delay: 900ms;
+}
+
+.spinner.dashes.size35 > div:nth-of-type(10) {
+  -webkit-transform: rotate(324deg);
+  -moz-transform: rotate(324deg);
+  -ms-transform: rotate(324deg);
+  -o-transform: rotate(324deg);
+  transform: rotate(324deg);
+  -webkit-animation-delay: 1000ms;
+  -moz-animation-delay: 1000ms;
+  -ms-animation-delay: 1000ms;
+  -o-animation-delay: 1000ms;
+  animation-delay: 1000ms;
+}
+
+@-moz-keyframes hashes-lightensize35 {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes hashes-lightensize35 {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@-o-keyframes hashes-lightensize35 {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@-ms-keyframes hashes-lightensize35 {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@keyframes hashes-lightensize35 {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+.spinner.dashes.size55 {
+  position: relative;
+  width: 56px;
+  height: 56px;
+}
+
+.spinner.dashes.size55 > div {
+  position: absolute;
+  width: 6px;
+  height: 18px;
+  top: 0;
+  left: 25px;
+  background-color: transparent;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-transform-origin: 3px 28px;
+  -moz-transform-origin: 3px 28px;
+  -ms-transform-origin: 3px 28px;
+  -o-transform-origin: 3px 28px;
+  transform-origin: 3px 28px;
+  -webkit-animation-name: hashes-lightensize55;
+  -moz-animation-name: hashes-lightensize55;
+  -ms-animation-name: hashes-lightensize55;
+  -o-animation-name: hashes-lightensize55;
+  animation-name: hashes-lightensize55;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 1000ms;
+  -moz-animation-duration: 1000ms;
+  -ms-animation-duration: 1000ms;
+  -o-animation-duration: 1000ms;
+  animation-duration: 1000ms;
+}
+
+.spinner.dashes.size55 > div:nth-of-type(1) {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation-delay: 100ms;
+  -moz-animation-delay: 100ms;
+  -ms-animation-delay: 100ms;
+  -o-animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+
+.spinner.dashes.size55 > div:nth-of-type(2) {
+  -webkit-transform: rotate(36deg);
+  -moz-transform: rotate(36deg);
+  -ms-transform: rotate(36deg);
+  -o-transform: rotate(36deg);
+  transform: rotate(36deg);
+  -webkit-animation-delay: 200ms;
+  -moz-animation-delay: 200ms;
+  -ms-animation-delay: 200ms;
+  -o-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+.spinner.dashes.size55 > div:nth-of-type(3) {
+  -webkit-transform: rotate(72deg);
+  -moz-transform: rotate(72deg);
+  -ms-transform: rotate(72deg);
+  -o-transform: rotate(72deg);
+  transform: rotate(72deg);
+  -webkit-animation-delay: 300ms;
+  -moz-animation-delay: 300ms;
+  -ms-animation-delay: 300ms;
+  -o-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+
+.spinner.dashes.size55 > div:nth-of-type(4) {
+  -webkit-transform: rotate(108deg);
+  -moz-transform: rotate(108deg);
+  -ms-transform: rotate(108deg);
+  -o-transform: rotate(108deg);
+  transform: rotate(108deg);
+  -webkit-animation-delay: 400ms;
+  -moz-animation-delay: 400ms;
+  -ms-animation-delay: 400ms;
+  -o-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.spinner.dashes.size55 > div:nth-of-type(5) {
+  -webkit-transform: rotate(144deg);
+  -moz-transform: rotate(144deg);
+  -ms-transform: rotate(144deg);
+  -o-transform: rotate(144deg);
+  transform: rotate(144deg);
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -ms-animation-delay: 500ms;
+  -o-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+
+.spinner.dashes.size55 > div:nth-of-type(6) {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-animation-delay: 600ms;
+  -moz-animation-delay: 600ms;
+  -ms-animation-delay: 600ms;
+  -o-animation-delay: 600ms;
+  animation-delay: 600ms;
+}
+
+.spinner.dashes.size55 > div:nth-of-type(7) {
+  -webkit-transform: rotate(216deg);
+  -moz-transform: rotate(216deg);
+  -ms-transform: rotate(216deg);
+  -o-transform: rotate(216deg);
+  transform: rotate(216deg);
+  -webkit-animation-delay: 700ms;
+  -moz-animation-delay: 700ms;
+  -ms-animation-delay: 700ms;
+  -o-animation-delay: 700ms;
+  animation-delay: 700ms;
+}
+
+.spinner.dashes.size55 > div:nth-of-type(8) {
+  -webkit-transform: rotate(252deg);
+  -moz-transform: rotate(252deg);
+  -ms-transform: rotate(252deg);
+  -o-transform: rotate(252deg);
+  transform: rotate(252deg);
+  -webkit-animation-delay: 800ms;
+  -moz-animation-delay: 800ms;
+  -ms-animation-delay: 800ms;
+  -o-animation-delay: 800ms;
+  animation-delay: 800ms;
+}
+
+.spinner.dashes.size55 > div:nth-of-type(9) {
+  -webkit-transform: rotate(288deg);
+  -moz-transform: rotate(288deg);
+  -ms-transform: rotate(288deg);
+  -o-transform: rotate(288deg);
+  transform: rotate(288deg);
+  -webkit-animation-delay: 900ms;
+  -moz-animation-delay: 900ms;
+  -ms-animation-delay: 900ms;
+  -o-animation-delay: 900ms;
+  animation-delay: 900ms;
+}
+
+.spinner.dashes.size55 > div:nth-of-type(10) {
+  -webkit-transform: rotate(324deg);
+  -moz-transform: rotate(324deg);
+  -ms-transform: rotate(324deg);
+  -o-transform: rotate(324deg);
+  transform: rotate(324deg);
+  -webkit-animation-delay: 1000ms;
+  -moz-animation-delay: 1000ms;
+  -ms-animation-delay: 1000ms;
+  -o-animation-delay: 1000ms;
+  animation-delay: 1000ms;
+}
+
+@-moz-keyframes hashes-lightensize55 {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes hashes-lightensize55 {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@-o-keyframes hashes-lightensize55 {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@-ms-keyframes hashes-lightensize55 {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@keyframes hashes-lightensize55 {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+.spinner.dashes.eight {
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+
+.spinner.dashes.eight > div {
+  position: absolute;
+  width: 4px;
+  height: 12px;
+  top: 0;
+  left: 16px;
+  background-color: transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transform-origin: 2px 18px;
+  -moz-transform-origin: 2px 18px;
+  -ms-transform-origin: 2px 18px;
+  -o-transform-origin: 2px 18px;
+  transform-origin: 2px 18px;
+  -webkit-animation-name: hashes-lighteneight;
+  -moz-animation-name: hashes-lighteneight;
+  -ms-animation-name: hashes-lighteneight;
+  -o-animation-name: hashes-lighteneight;
+  animation-name: hashes-lighteneight;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 800ms;
+  -moz-animation-duration: 800ms;
+  -ms-animation-duration: 800ms;
+  -o-animation-duration: 800ms;
+  animation-duration: 800ms;
+}
+
+.spinner.dashes.eight > div:nth-of-type(1) {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation-delay: 100ms;
+  -moz-animation-delay: 100ms;
+  -ms-animation-delay: 100ms;
+  -o-animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+
+.spinner.dashes.eight > div:nth-of-type(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-animation-delay: 200ms;
+  -moz-animation-delay: 200ms;
+  -ms-animation-delay: 200ms;
+  -o-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+.spinner.dashes.eight > div:nth-of-type(3) {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-animation-delay: 300ms;
+  -moz-animation-delay: 300ms;
+  -ms-animation-delay: 300ms;
+  -o-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+
+.spinner.dashes.eight > div:nth-of-type(4) {
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+  -webkit-animation-delay: 400ms;
+  -moz-animation-delay: 400ms;
+  -ms-animation-delay: 400ms;
+  -o-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.spinner.dashes.eight > div:nth-of-type(5) {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -ms-animation-delay: 500ms;
+  -o-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+
+.spinner.dashes.eight > div:nth-of-type(6) {
+  -webkit-transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  -o-transform: rotate(225deg);
+  transform: rotate(225deg);
+  -webkit-animation-delay: 600ms;
+  -moz-animation-delay: 600ms;
+  -ms-animation-delay: 600ms;
+  -o-animation-delay: 600ms;
+  animation-delay: 600ms;
+}
+
+.spinner.dashes.eight > div:nth-of-type(7) {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-animation-delay: 700ms;
+  -moz-animation-delay: 700ms;
+  -ms-animation-delay: 700ms;
+  -o-animation-delay: 700ms;
+  animation-delay: 700ms;
+}
+
+.spinner.dashes.eight > div:nth-of-type(8) {
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  transform: rotate(315deg);
+  -webkit-animation-delay: 800ms;
+  -moz-animation-delay: 800ms;
+  -ms-animation-delay: 800ms;
+  -o-animation-delay: 800ms;
+  animation-delay: 800ms;
+}
+
+@-moz-keyframes hashes-lighteneight {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes hashes-lighteneight {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@-o-keyframes hashes-lighteneight {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@-ms-keyframes hashes-lighteneight {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@keyframes hashes-lighteneight {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+.spinner.dashes.twelve {
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+
+.spinner.dashes.twelve > div {
+  position: absolute;
+  width: 4px;
+  height: 10px;
+  top: 0;
+  left: 16px;
+  background-color: transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transform-origin: 2px 18px;
+  -moz-transform-origin: 2px 18px;
+  -ms-transform-origin: 2px 18px;
+  -o-transform-origin: 2px 18px;
+  transform-origin: 2px 18px;
+  -webkit-animation-name: hashes-lightentwelve;
+  -moz-animation-name: hashes-lightentwelve;
+  -ms-animation-name: hashes-lightentwelve;
+  -o-animation-name: hashes-lightentwelve;
+  animation-name: hashes-lightentwelve;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 1200ms;
+  -moz-animation-duration: 1200ms;
+  -ms-animation-duration: 1200ms;
+  -o-animation-duration: 1200ms;
+  animation-duration: 1200ms;
+}
+
+.spinner.dashes.twelve > div:nth-of-type(1) {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation-delay: 100ms;
+  -moz-animation-delay: 100ms;
+  -ms-animation-delay: 100ms;
+  -o-animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+
+.spinner.dashes.twelve > div:nth-of-type(2) {
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+  -webkit-animation-delay: 200ms;
+  -moz-animation-delay: 200ms;
+  -ms-animation-delay: 200ms;
+  -o-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+.spinner.dashes.twelve > div:nth-of-type(3) {
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
+  transform: rotate(60deg);
+  -webkit-animation-delay: 300ms;
+  -moz-animation-delay: 300ms;
+  -ms-animation-delay: 300ms;
+  -o-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+
+.spinner.dashes.twelve > div:nth-of-type(4) {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-animation-delay: 400ms;
+  -moz-animation-delay: 400ms;
+  -ms-animation-delay: 400ms;
+  -o-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.spinner.dashes.twelve > div:nth-of-type(5) {
+  -webkit-transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  transform: rotate(120deg);
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -ms-animation-delay: 500ms;
+  -o-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+
+.spinner.dashes.twelve > div:nth-of-type(6) {
+  -webkit-transform: rotate(150deg);
+  -moz-transform: rotate(150deg);
+  -ms-transform: rotate(150deg);
+  -o-transform: rotate(150deg);
+  transform: rotate(150deg);
+  -webkit-animation-delay: 600ms;
+  -moz-animation-delay: 600ms;
+  -ms-animation-delay: 600ms;
+  -o-animation-delay: 600ms;
+  animation-delay: 600ms;
+}
+
+.spinner.dashes.twelve > div:nth-of-type(7) {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-animation-delay: 700ms;
+  -moz-animation-delay: 700ms;
+  -ms-animation-delay: 700ms;
+  -o-animation-delay: 700ms;
+  animation-delay: 700ms;
+}
+
+.spinner.dashes.twelve > div:nth-of-type(8) {
+  -webkit-transform: rotate(210deg);
+  -moz-transform: rotate(210deg);
+  -ms-transform: rotate(210deg);
+  -o-transform: rotate(210deg);
+  transform: rotate(210deg);
+  -webkit-animation-delay: 800ms;
+  -moz-animation-delay: 800ms;
+  -ms-animation-delay: 800ms;
+  -o-animation-delay: 800ms;
+  animation-delay: 800ms;
+}
+
+.spinner.dashes.twelve > div:nth-of-type(9) {
+  -webkit-transform: rotate(240deg);
+  -moz-transform: rotate(240deg);
+  -ms-transform: rotate(240deg);
+  -o-transform: rotate(240deg);
+  transform: rotate(240deg);
+  -webkit-animation-delay: 900ms;
+  -moz-animation-delay: 900ms;
+  -ms-animation-delay: 900ms;
+  -o-animation-delay: 900ms;
+  animation-delay: 900ms;
+}
+
+.spinner.dashes.twelve > div:nth-of-type(10) {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-animation-delay: 1000ms;
+  -moz-animation-delay: 1000ms;
+  -ms-animation-delay: 1000ms;
+  -o-animation-delay: 1000ms;
+  animation-delay: 1000ms;
+}
+
+.spinner.dashes.twelve > div:nth-of-type(11) {
+  -webkit-transform: rotate(300deg);
+  -moz-transform: rotate(300deg);
+  -ms-transform: rotate(300deg);
+  -o-transform: rotate(300deg);
+  transform: rotate(300deg);
+  -webkit-animation-delay: 1100ms;
+  -moz-animation-delay: 1100ms;
+  -ms-animation-delay: 1100ms;
+  -o-animation-delay: 1100ms;
+  animation-delay: 1100ms;
+}
+
+.spinner.dashes.twelve > div:nth-of-type(12) {
+  -webkit-transform: rotate(330deg);
+  -moz-transform: rotate(330deg);
+  -ms-transform: rotate(330deg);
+  -o-transform: rotate(330deg);
+  transform: rotate(330deg);
+  -webkit-animation-delay: 1200ms;
+  -moz-animation-delay: 1200ms;
+  -ms-animation-delay: 1200ms;
+  -o-animation-delay: 1200ms;
+  animation-delay: 1200ms;
+}
+
+@-moz-keyframes hashes-lightentwelve {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes hashes-lightentwelve {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@-o-keyframes hashes-lightentwelve {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@-ms-keyframes hashes-lightentwelve {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@keyframes hashes-lightentwelve {
+  0% {
+    background-color: #555555;
+  }
+
+  10% {
+    background-color: dimgrey;
+  }
+
+  20% {
+    background-color: #7e7e7e;
+  }
+
+  30% {
+    background-color: #929292;
+  }
+
+  40% {
+    background-color: #a7a7a7;
+  }
+
+  50% {
+    background-color: #bbbbbb;
+  }
+
+  60% {
+    background-color: #cfcfcf;
+  }
+
+  70% {
+    background-color: #e4e4e4;
+  }
+
+  80% {
+    background-color: #f8f8f8;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+.spinner.dashes.orange {
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+
+.spinner.dashes.orange > div {
+  position: absolute;
+  width: 4px;
+  height: 11px;
+  top: 0;
+  left: 16px;
+  background-color: transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transform-origin: 2px 18px;
+  -moz-transform-origin: 2px 18px;
+  -ms-transform-origin: 2px 18px;
+  -o-transform-origin: 2px 18px;
+  transform-origin: 2px 18px;
+  -webkit-animation-name: hashes-lightenorange;
+  -moz-animation-name: hashes-lightenorange;
+  -ms-animation-name: hashes-lightenorange;
+  -o-animation-name: hashes-lightenorange;
+  animation-name: hashes-lightenorange;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 1000ms;
+  -moz-animation-duration: 1000ms;
+  -ms-animation-duration: 1000ms;
+  -o-animation-duration: 1000ms;
+  animation-duration: 1000ms;
+}
+
+.spinner.dashes.orange > div:nth-of-type(1) {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-animation-delay: 100ms;
+  -moz-animation-delay: 100ms;
+  -ms-animation-delay: 100ms;
+  -o-animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+
+.spinner.dashes.orange > div:nth-of-type(2) {
+  -webkit-transform: rotate(36deg);
+  -moz-transform: rotate(36deg);
+  -ms-transform: rotate(36deg);
+  -o-transform: rotate(36deg);
+  transform: rotate(36deg);
+  -webkit-animation-delay: 200ms;
+  -moz-animation-delay: 200ms;
+  -ms-animation-delay: 200ms;
+  -o-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+.spinner.dashes.orange > div:nth-of-type(3) {
+  -webkit-transform: rotate(72deg);
+  -moz-transform: rotate(72deg);
+  -ms-transform: rotate(72deg);
+  -o-transform: rotate(72deg);
+  transform: rotate(72deg);
+  -webkit-animation-delay: 300ms;
+  -moz-animation-delay: 300ms;
+  -ms-animation-delay: 300ms;
+  -o-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+
+.spinner.dashes.orange > div:nth-of-type(4) {
+  -webkit-transform: rotate(108deg);
+  -moz-transform: rotate(108deg);
+  -ms-transform: rotate(108deg);
+  -o-transform: rotate(108deg);
+  transform: rotate(108deg);
+  -webkit-animation-delay: 400ms;
+  -moz-animation-delay: 400ms;
+  -ms-animation-delay: 400ms;
+  -o-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.spinner.dashes.orange > div:nth-of-type(5) {
+  -webkit-transform: rotate(144deg);
+  -moz-transform: rotate(144deg);
+  -ms-transform: rotate(144deg);
+  -o-transform: rotate(144deg);
+  transform: rotate(144deg);
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -ms-animation-delay: 500ms;
+  -o-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+
+.spinner.dashes.orange > div:nth-of-type(6) {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-animation-delay: 600ms;
+  -moz-animation-delay: 600ms;
+  -ms-animation-delay: 600ms;
+  -o-animation-delay: 600ms;
+  animation-delay: 600ms;
+}
+
+.spinner.dashes.orange > div:nth-of-type(7) {
+  -webkit-transform: rotate(216deg);
+  -moz-transform: rotate(216deg);
+  -ms-transform: rotate(216deg);
+  -o-transform: rotate(216deg);
+  transform: rotate(216deg);
+  -webkit-animation-delay: 700ms;
+  -moz-animation-delay: 700ms;
+  -ms-animation-delay: 700ms;
+  -o-animation-delay: 700ms;
+  animation-delay: 700ms;
+}
+
+.spinner.dashes.orange > div:nth-of-type(8) {
+  -webkit-transform: rotate(252deg);
+  -moz-transform: rotate(252deg);
+  -ms-transform: rotate(252deg);
+  -o-transform: rotate(252deg);
+  transform: rotate(252deg);
+  -webkit-animation-delay: 800ms;
+  -moz-animation-delay: 800ms;
+  -ms-animation-delay: 800ms;
+  -o-animation-delay: 800ms;
+  animation-delay: 800ms;
+}
+
+.spinner.dashes.orange > div:nth-of-type(9) {
+  -webkit-transform: rotate(288deg);
+  -moz-transform: rotate(288deg);
+  -ms-transform: rotate(288deg);
+  -o-transform: rotate(288deg);
+  transform: rotate(288deg);
+  -webkit-animation-delay: 900ms;
+  -moz-animation-delay: 900ms;
+  -ms-animation-delay: 900ms;
+  -o-animation-delay: 900ms;
+  animation-delay: 900ms;
+}
+
+.spinner.dashes.orange > div:nth-of-type(10) {
+  -webkit-transform: rotate(324deg);
+  -moz-transform: rotate(324deg);
+  -ms-transform: rotate(324deg);
+  -o-transform: rotate(324deg);
+  transform: rotate(324deg);
+  -webkit-animation-delay: 1000ms;
+  -moz-animation-delay: 1000ms;
+  -ms-animation-delay: 1000ms;
+  -o-animation-delay: 1000ms;
+  animation-delay: 1000ms;
+}
+
+@-moz-keyframes hashes-lightenorange {
+  0% {
+    background-color: orange;
+  }
+
+  10% {
+    background-color: #ffb329;
+  }
+
+  20% {
+    background-color: #ffc252;
+  }
+
+  30% {
+    background-color: #ffd07a;
+  }
+
+  40% {
+    background-color: #ffdfa3;
+  }
+
+  50% {
+    background-color: #ffedcc;
+  }
+
+  60% {
+    background-color: #fffbf5;
+  }
+
+  70% {
+    background-color: white;
+  }
+
+  80% {
+    background-color: white;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes hashes-lightenorange {
+  0% {
+    background-color: orange;
+  }
+
+  10% {
+    background-color: #ffb329;
+  }
+
+  20% {
+    background-color: #ffc252;
+  }
+
+  30% {
+    background-color: #ffd07a;
+  }
+
+  40% {
+    background-color: #ffdfa3;
+  }
+
+  50% {
+    background-color: #ffedcc;
+  }
+
+  60% {
+    background-color: #fffbf5;
+  }
+
+  70% {
+    background-color: white;
+  }
+
+  80% {
+    background-color: white;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@-o-keyframes hashes-lightenorange {
+  0% {
+    background-color: orange;
+  }
+
+  10% {
+    background-color: #ffb329;
+  }
+
+  20% {
+    background-color: #ffc252;
+  }
+
+  30% {
+    background-color: #ffd07a;
+  }
+
+  40% {
+    background-color: #ffdfa3;
+  }
+
+  50% {
+    background-color: #ffedcc;
+  }
+
+  60% {
+    background-color: #fffbf5;
+  }
+
+  70% {
+    background-color: white;
+  }
+
+  80% {
+    background-color: white;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@-ms-keyframes hashes-lightenorange {
+  0% {
+    background-color: orange;
+  }
+
+  10% {
+    background-color: #ffb329;
+  }
+
+  20% {
+    background-color: #ffc252;
+  }
+
+  30% {
+    background-color: #ffd07a;
+  }
+
+  40% {
+    background-color: #ffdfa3;
+  }
+
+  50% {
+    background-color: #ffedcc;
+  }
+
+  60% {
+    background-color: #fffbf5;
+  }
+
+  70% {
+    background-color: white;
+  }
+
+  80% {
+    background-color: white;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+@keyframes hashes-lightenorange {
+  0% {
+    background-color: orange;
+  }
+
+  10% {
+    background-color: #ffb329;
+  }
+
+  20% {
+    background-color: #ffc252;
+  }
+
+  30% {
+    background-color: #ffd07a;
+  }
+
+  40% {
+    background-color: #ffdfa3;
+  }
+
+  50% {
+    background-color: #ffedcc;
+  }
+
+  60% {
+    background-color: #fffbf5;
+  }
+
+  70% {
+    background-color: white;
+  }
+
+  80% {
+    background-color: white;
+  }
+
+  90% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: white;
+  }
+}

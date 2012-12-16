@@ -1,0 +1,10 @@
+@import "spinner-dashes";
+
+@include spinner-dashes("size15", 15px);
+@include spinner-dashes("size35", 35px);
+@include spinner-dashes("size55", 55px);
+
+@include spinner-dashes("eight", 35px, 8);
+@include spinner-dashes("twelve", 35px, 12);
+
+@include spinner-dashes("orange", 35px, 10, orange);

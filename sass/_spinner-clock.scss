@@ -70,11 +70,11 @@
       }
 
       &:before {
-         @include transform(rotate(-30deg));
+         @include rotate(-30deg);
       }
 
       &:after {
-         @include transform(rotate(20deg));
+         @include rotate(20deg);
       }
 
    }

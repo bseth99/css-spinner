@@ -1,0 +1,52 @@
+@import "compass/css3";
+@import "animation";
+
+@mixin spinner-dashes($name: null, $size: 35px, $count: 10, $color: #555) {
+
+   $class: "";
+   @if $name { $class: ".#{$name}"; };
+
+   @if $size%2 > 0 { $size: $size+1; };
+
+   $half: $size / 2;
+   $width: ceil($half / 5);
+   $dash: $half - round($width * ($count + 7) / 10);
+
+   $rot: floor(360 / $count) + 0deg;
+
+   .spinner.dashes#{$class} {
+      position: relative;
+      width: $size;
+      height: $size;
+   }
+
+   .spinner.dashes#{$class} > div {
+      position: absolute;
+      width: $width;
+      height: $dash;
+      top: 0;
+      left: $half - $width/2;
+      background-color: transparent;
+      @include border-radius($width);
+      @include transform-origin($width/2, $half);
+      @include animation-name(hashes-lighten#{$name});
+      @include animation-timing-function(linear);
+      @include animation-iteration-count(infinite);
+      @include animation-duration($count * 100ms);
+   }
+
+   @for $i from 1 through $count {
+      .spinner.dashes#{$class} > div:nth-of-type(#{$i}) {
+         @include rotate($rot * ($i - 1));
+         @include animation-delay($i*100ms);
+      }
+   }
+
+   @include keyframes(hashes-lighten#{$name}) {
+       @for $s from 0 through 10 {
+          #{$s * 10%} { background-color: lighten($color, $s * 8); }
+       }
+   }
+}
+
+
