@@ -44,9 +44,8 @@
    }
 
    @include keyframes(hashes-lighten#{$name}) {
-       @for $s from 0 through 10 {
-          #{$s * 10%} { background-color: lighten($color, $s * 8); }
-       }
+       from { background-color: $color; }
+       to { background-color: lighten($color, $count * 8); }
    }
 }
 

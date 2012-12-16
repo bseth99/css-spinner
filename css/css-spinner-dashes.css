@@ -179,231 +179,51 @@
 }
 
 @-moz-keyframes hashes-lighten {
-  0% {
+  from {
     background-color: #555555;
   }
 
-  10% {
-    background-color: dimgrey;
-  }
-
-  20% {
-    background-color: #7e7e7e;
-  }
-
-  30% {
-    background-color: #929292;
-  }
-
-  40% {
-    background-color: #a7a7a7;
-  }
-
-  50% {
-    background-color: #bbbbbb;
-  }
-
-  60% {
-    background-color: #cfcfcf;
-  }
-
-  70% {
-    background-color: #e4e4e4;
-  }
-
-  80% {
-    background-color: #f8f8f8;
-  }
-
-  90% {
-    background-color: white;
-  }
-
-  100% {
+  to {
     background-color: white;
   }
 }
 
 @-webkit-keyframes hashes-lighten {
-  0% {
+  from {
     background-color: #555555;
   }
 
-  10% {
-    background-color: dimgrey;
-  }
-
-  20% {
-    background-color: #7e7e7e;
-  }
-
-  30% {
-    background-color: #929292;
-  }
-
-  40% {
-    background-color: #a7a7a7;
-  }
-
-  50% {
-    background-color: #bbbbbb;
-  }
-
-  60% {
-    background-color: #cfcfcf;
-  }
-
-  70% {
-    background-color: #e4e4e4;
-  }
-
-  80% {
-    background-color: #f8f8f8;
-  }
-
-  90% {
-    background-color: white;
-  }
-
-  100% {
+  to {
     background-color: white;
   }
 }
 
 @-o-keyframes hashes-lighten {
-  0% {
+  from {
     background-color: #555555;
   }
 
-  10% {
-    background-color: dimgrey;
-  }
-
-  20% {
-    background-color: #7e7e7e;
-  }
-
-  30% {
-    background-color: #929292;
-  }
-
-  40% {
-    background-color: #a7a7a7;
-  }
-
-  50% {
-    background-color: #bbbbbb;
-  }
-
-  60% {
-    background-color: #cfcfcf;
-  }
-
-  70% {
-    background-color: #e4e4e4;
-  }
-
-  80% {
-    background-color: #f8f8f8;
-  }
-
-  90% {
-    background-color: white;
-  }
-
-  100% {
+  to {
     background-color: white;
   }
 }
 
 @-ms-keyframes hashes-lighten {
-  0% {
+  from {
     background-color: #555555;
   }
 
-  10% {
-    background-color: dimgrey;
-  }
-
-  20% {
-    background-color: #7e7e7e;
-  }
-
-  30% {
-    background-color: #929292;
-  }
-
-  40% {
-    background-color: #a7a7a7;
-  }
-
-  50% {
-    background-color: #bbbbbb;
-  }
-
-  60% {
-    background-color: #cfcfcf;
-  }
-
-  70% {
-    background-color: #e4e4e4;
-  }
-
-  80% {
-    background-color: #f8f8f8;
-  }
-
-  90% {
-    background-color: white;
-  }
-
-  100% {
+  to {
     background-color: white;
   }
 }
 
 @keyframes hashes-lighten {
-  0% {
+  from {
     background-color: #555555;
   }
 
-  10% {
-    background-color: dimgrey;
-  }
-
-  20% {
-    background-color: #7e7e7e;
-  }
-
-  30% {
-    background-color: #929292;
-  }
-
-  40% {
-    background-color: #a7a7a7;
-  }
-
-  50% {
-    background-color: #bbbbbb;
-  }
-
-  60% {
-    background-color: #cfcfcf;
-  }
-
-  70% {
-    background-color: #e4e4e4;
-  }
-
-  80% {
-    background-color: #f8f8f8;
-  }
-
-  90% {
-    background-color: white;
-  }
-
-  100% {
+  to {
     background-color: white;
   }
 }
