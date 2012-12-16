@@ -7,7 +7,7 @@
 .spinner.dashes > div {
   position: absolute;
   width: 4px;
-  height: 11px;
+  height: 12px;
   top: 0;
   left: 16px;
   background-color: transparent;

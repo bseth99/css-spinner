@@ -10,7 +10,7 @@
 
    $half: $size / 2;
    $width: ceil($half / 5);
-   $dash: $half - round($width * ($count + 7) / 10);
+   $dash: $half - round($width * ($count + 5) / 10);
 
    $rot: floor(360 / $count) + 0deg;
 

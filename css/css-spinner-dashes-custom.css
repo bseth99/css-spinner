@@ -412,7 +412,7 @@
 .spinner.dashes.size35 > div {
   position: absolute;
   width: 4px;
-  height: 11px;
+  height: 12px;
   top: 0;
   left: 16px;
   background-color: transparent;
@@ -817,7 +817,7 @@
 .spinner.dashes.size55 > div {
   position: absolute;
   width: 6px;
-  height: 18px;
+  height: 19px;
   top: 0;
   left: 25px;
   background-color: transparent;
@@ -1222,7 +1222,7 @@
 .spinner.dashes.eight > div {
   position: absolute;
   width: 4px;
-  height: 12px;
+  height: 13px;
   top: 0;
   left: 16px;
   background-color: transparent;
@@ -1601,7 +1601,7 @@
 .spinner.dashes.twelve > div {
   position: absolute;
   width: 4px;
-  height: 10px;
+  height: 11px;
   top: 0;
   left: 16px;
   background-color: transparent;
@@ -2032,7 +2032,7 @@
 .spinner.dashes.orange > div {
   position: absolute;
   width: 4px;
-  height: 11px;
+  height: 12px;
   top: 0;
   left: 16px;
   background-color: transparent;
