@@ -1,7 +1,7 @@
-css-spinner
+CSS3-only Animated Spinner
 ===========
 
-A CSS3-only Animated Spinner.  Includes Sass/Compass partial to generate spinners with different options.
+Includes Sass/Compass partial to generate spinners with different options.
 
 You can download the basic spinner CSS from the css directory (css-spinner.css).
 
@@ -11,6 +11,10 @@ Or you can check out the source and build the CSS files using Compass.  From the
     
 This will regenerate the CSS files from the SCSS files.
 
+Requires additional Gem [animation package](https://github.com/ericam/compass-animation) which includes the required animation/keyframe mixins:
+
+    gem install animation --pre
+
 The scss folder contains the partial _spinner.scss which contains the mixin to generate spinner classes.  
-Right now the only option is to create a different size.  
-Check out the [test page for a demo](http://bseth99.github.com/css-spinner/).
+
+Check out the [demo page](http://bseth99.github.com/css-spinner/) for working examples.

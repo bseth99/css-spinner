@@ -1,4 +1,4 @@
-@-moz-keyframes spinleft {
+@-moz-keyframes clock-spinleft {
   from {
     -moz-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -10,7 +10,7 @@
   }
 }
 
-@-webkit-keyframes spinleft {
+@-webkit-keyframes clock-spinleft {
   from {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -22,7 +22,7 @@
   }
 }
 
-@-o-keyframes spinleft {
+@-o-keyframes clock-spinleft {
   from {
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -34,7 +34,7 @@
   }
 }
 
-@-ms-keyframes spinleft {
+@-ms-keyframes clock-spinleft {
   from {
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -46,7 +46,7 @@
   }
 }
 
-@keyframes spinleft {
+@keyframes clock-spinleft {
   from {
     transform: rotate(0deg);
   }
@@ -56,7 +56,7 @@
   }
 }
 
-@-moz-keyframes spinright {
+@-moz-keyframes clock-spinright {
   from {
     -moz-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -68,7 +68,7 @@
   }
 }
 
-@-webkit-keyframes spinright {
+@-webkit-keyframes clock-spinright {
   from {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -80,7 +80,7 @@
   }
 }
 
-@-o-keyframes spinright {
+@-o-keyframes clock-spinright {
   from {
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -92,7 +92,7 @@
   }
 }
 
-@-ms-keyframes spinright {
+@-ms-keyframes clock-spinright {
   from {
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -104,7 +104,7 @@
   }
 }
 
-@keyframes spinright {
+@keyframes clock-spinright {
   from {
     transform: rotate(0deg);
   }
@@ -114,19 +114,19 @@
   }
 }
 
-.spinner.size15 {
+.spinner.clock.size15 {
   position: relative;
   height: 20px;
   width: 20px;
 }
 
-.spinner.size15 > div {
+.spinner.clock.size15 > div {
   position: absolute;
   border-style: solid;
   background-color: transparent;
 }
 
-.spinner.size15 .circle {
+.spinner.clock.size15 .circle {
   width: 16px;
   height: 16px;
   border-width: 2px;
@@ -138,25 +138,23 @@
   border-radius: 16px;
 }
 
-.spinner.size15 .wedge {
+.spinner.clock.size15 .wedge {
   width: 0;
   height: 0;
   border-width: 10px;
   border-color: #999 transparent transparent transparent;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
-  opacity: 0.6;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   border-radius: 10px;
-  -webkit-animation: spinright 1000ms linear 0s infinite;
-  -moz-animation: spinright 1000ms linear 0s infinite;
-  -ms-animation: spinright 1000ms linear 0s infinite;
-  -o-animation: spinright 1000ms linear 0s infinite;
-  animation: spinright 1000ms linear 0s infinite;
+  -webkit-animation: clock-spinright 1250ms linear 0s infinite;
+  -moz-animation: clock-spinright 1250ms linear 0s infinite;
+  -ms-animation: clock-spinright 1250ms linear 0s infinite;
+  -o-animation: clock-spinright 1250ms linear 0s infinite;
+  animation: clock-spinright 1250ms linear 0s infinite;
 }
-.spinner.size15 .wedge:before, .spinner.size15 .wedge:after {
+.spinner.clock.size15 .wedge:before, .spinner.clock.size15 .wedge:after {
   content: ' ';
   position: absolute;
   margin: 0;
@@ -166,32 +164,29 @@
   height: 0;
   border-style: solid;
   border-width: 10px;
+  border-color: transparent #fff #fff #fff;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   border-radius: 10px;
 }
-.spinner.size15 .wedge:before {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
-  opacity: 0.4;
-  border-color: #ccc transparent transparent transparent;
-  -webkit-transform: rotate(-70deg);
-  -moz-transform: rotate(-70deg);
-  -ms-transform: rotate(-70deg);
-  -o-transform: rotate(-70deg);
-  transform: rotate(-70deg);
+.spinner.clock.size15 .wedge:before {
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  transform: rotate(-30deg);
 }
-.spinner.size15 .wedge:after {
-  border-color: transparent #fff #fff #fff;
-  -webkit-transform: rotate(-50deg);
-  -moz-transform: rotate(-50deg);
-  -ms-transform: rotate(-50deg);
-  -o-transform: rotate(-50deg);
-  transform: rotate(-50deg);
+.spinner.clock.size15 .wedge:after {
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);
 }
 
-.spinner.size15 .arc {
+.spinner.clock.size15 .arc {
   width: 16px;
   height: 16px;
   border-width: 2px;
@@ -201,26 +196,26 @@
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
   border-radius: 16px;
-  -webkit-animation: spinleft 750ms linear 0s infinite;
-  -moz-animation: spinleft 750ms linear 0s infinite;
-  -ms-animation: spinleft 750ms linear 0s infinite;
-  -o-animation: spinleft 750ms linear 0s infinite;
-  animation: spinleft 750ms linear 0s infinite;
+  -webkit-animation: clock-spinleft 750ms linear 0s infinite;
+  -moz-animation: clock-spinleft 750ms linear 0s infinite;
+  -ms-animation: clock-spinleft 750ms linear 0s infinite;
+  -o-animation: clock-spinleft 750ms linear 0s infinite;
+  animation: clock-spinleft 750ms linear 0s infinite;
 }
 
-.spinner.size35 {
+.spinner.clock.size35 {
   position: relative;
   height: 46px;
   width: 46px;
 }
 
-.spinner.size35 > div {
+.spinner.clock.size35 > div {
   position: absolute;
   border-style: solid;
   background-color: transparent;
 }
 
-.spinner.size35 .circle {
+.spinner.clock.size35 .circle {
   width: 36px;
   height: 36px;
   border-width: 5px;
@@ -232,25 +227,23 @@
   border-radius: 36px;
 }
 
-.spinner.size35 .wedge {
+.spinner.clock.size35 .wedge {
   width: 0;
   height: 0;
   border-width: 23px;
   border-color: #999 transparent transparent transparent;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
-  opacity: 0.6;
   -webkit-border-radius: 23px;
   -moz-border-radius: 23px;
   -ms-border-radius: 23px;
   -o-border-radius: 23px;
   border-radius: 23px;
-  -webkit-animation: spinright 1000ms linear 0s infinite;
-  -moz-animation: spinright 1000ms linear 0s infinite;
-  -ms-animation: spinright 1000ms linear 0s infinite;
-  -o-animation: spinright 1000ms linear 0s infinite;
-  animation: spinright 1000ms linear 0s infinite;
+  -webkit-animation: clock-spinright 1250ms linear 0s infinite;
+  -moz-animation: clock-spinright 1250ms linear 0s infinite;
+  -ms-animation: clock-spinright 1250ms linear 0s infinite;
+  -o-animation: clock-spinright 1250ms linear 0s infinite;
+  animation: clock-spinright 1250ms linear 0s infinite;
 }
-.spinner.size35 .wedge:before, .spinner.size35 .wedge:after {
+.spinner.clock.size35 .wedge:before, .spinner.clock.size35 .wedge:after {
   content: ' ';
   position: absolute;
   margin: 0;
@@ -260,32 +253,29 @@
   height: 0;
   border-style: solid;
   border-width: 23px;
+  border-color: transparent #fff #fff #fff;
   -webkit-border-radius: 23px;
   -moz-border-radius: 23px;
   -ms-border-radius: 23px;
   -o-border-radius: 23px;
   border-radius: 23px;
 }
-.spinner.size35 .wedge:before {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
-  opacity: 0.4;
-  border-color: #ccc transparent transparent transparent;
-  -webkit-transform: rotate(-70deg);
-  -moz-transform: rotate(-70deg);
-  -ms-transform: rotate(-70deg);
-  -o-transform: rotate(-70deg);
-  transform: rotate(-70deg);
+.spinner.clock.size35 .wedge:before {
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  transform: rotate(-30deg);
 }
-.spinner.size35 .wedge:after {
-  border-color: transparent #fff #fff #fff;
-  -webkit-transform: rotate(-50deg);
-  -moz-transform: rotate(-50deg);
-  -ms-transform: rotate(-50deg);
-  -o-transform: rotate(-50deg);
-  transform: rotate(-50deg);
+.spinner.clock.size35 .wedge:after {
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);
 }
 
-.spinner.size35 .arc {
+.spinner.clock.size35 .arc {
   width: 36px;
   height: 36px;
   border-width: 5px;
@@ -295,26 +285,26 @@
   -ms-border-radius: 36px;
   -o-border-radius: 36px;
   border-radius: 36px;
-  -webkit-animation: spinleft 750ms linear 0s infinite;
-  -moz-animation: spinleft 750ms linear 0s infinite;
-  -ms-animation: spinleft 750ms linear 0s infinite;
-  -o-animation: spinleft 750ms linear 0s infinite;
-  animation: spinleft 750ms linear 0s infinite;
+  -webkit-animation: clock-spinleft 750ms linear 0s infinite;
+  -moz-animation: clock-spinleft 750ms linear 0s infinite;
+  -ms-animation: clock-spinleft 750ms linear 0s infinite;
+  -o-animation: clock-spinleft 750ms linear 0s infinite;
+  animation: clock-spinleft 750ms linear 0s infinite;
 }
 
-.spinner.size55 {
+.spinner.clock.size55 {
   position: relative;
   height: 70px;
   width: 70px;
 }
 
-.spinner.size55 > div {
+.spinner.clock.size55 > div {
   position: absolute;
   border-style: solid;
   background-color: transparent;
 }
 
-.spinner.size55 .circle {
+.spinner.clock.size55 .circle {
   width: 56px;
   height: 56px;
   border-width: 7px;
@@ -326,25 +316,23 @@
   border-radius: 56px;
 }
 
-.spinner.size55 .wedge {
+.spinner.clock.size55 .wedge {
   width: 0;
   height: 0;
   border-width: 35px;
   border-color: #999 transparent transparent transparent;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
-  opacity: 0.6;
   -webkit-border-radius: 35px;
   -moz-border-radius: 35px;
   -ms-border-radius: 35px;
   -o-border-radius: 35px;
   border-radius: 35px;
-  -webkit-animation: spinright 1000ms linear 0s infinite;
-  -moz-animation: spinright 1000ms linear 0s infinite;
-  -ms-animation: spinright 1000ms linear 0s infinite;
-  -o-animation: spinright 1000ms linear 0s infinite;
-  animation: spinright 1000ms linear 0s infinite;
+  -webkit-animation: clock-spinright 1250ms linear 0s infinite;
+  -moz-animation: clock-spinright 1250ms linear 0s infinite;
+  -ms-animation: clock-spinright 1250ms linear 0s infinite;
+  -o-animation: clock-spinright 1250ms linear 0s infinite;
+  animation: clock-spinright 1250ms linear 0s infinite;
 }
-.spinner.size55 .wedge:before, .spinner.size55 .wedge:after {
+.spinner.clock.size55 .wedge:before, .spinner.clock.size55 .wedge:after {
   content: ' ';
   position: absolute;
   margin: 0;
@@ -354,32 +342,29 @@
   height: 0;
   border-style: solid;
   border-width: 35px;
+  border-color: transparent #fff #fff #fff;
   -webkit-border-radius: 35px;
   -moz-border-radius: 35px;
   -ms-border-radius: 35px;
   -o-border-radius: 35px;
   border-radius: 35px;
 }
-.spinner.size55 .wedge:before {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
-  opacity: 0.4;
-  border-color: #ccc transparent transparent transparent;
-  -webkit-transform: rotate(-70deg);
-  -moz-transform: rotate(-70deg);
-  -ms-transform: rotate(-70deg);
-  -o-transform: rotate(-70deg);
-  transform: rotate(-70deg);
+.spinner.clock.size55 .wedge:before {
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  transform: rotate(-30deg);
 }
-.spinner.size55 .wedge:after {
-  border-color: transparent #fff #fff #fff;
-  -webkit-transform: rotate(-50deg);
-  -moz-transform: rotate(-50deg);
-  -ms-transform: rotate(-50deg);
-  -o-transform: rotate(-50deg);
-  transform: rotate(-50deg);
+.spinner.clock.size55 .wedge:after {
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);
 }
 
-.spinner.size55 .arc {
+.spinner.clock.size55 .arc {
   width: 56px;
   height: 56px;
   border-width: 7px;
@@ -389,9 +374,9 @@
   -ms-border-radius: 56px;
   -o-border-radius: 56px;
   border-radius: 56px;
-  -webkit-animation: spinleft 750ms linear 0s infinite;
-  -moz-animation: spinleft 750ms linear 0s infinite;
-  -ms-animation: spinleft 750ms linear 0s infinite;
-  -o-animation: spinleft 750ms linear 0s infinite;
-  animation: spinleft 750ms linear 0s infinite;
+  -webkit-animation: clock-spinleft 750ms linear 0s infinite;
+  -moz-animation: clock-spinleft 750ms linear 0s infinite;
+  -ms-animation: clock-spinleft 750ms linear 0s infinite;
+  -o-animation: clock-spinleft 750ms linear 0s infinite;
+  animation: clock-spinleft 750ms linear 0s infinite;
 }

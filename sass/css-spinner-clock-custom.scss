@@ -1,0 +1,5 @@
+@import "spinner-clock";
+
+@include spinner-clock("size15", 15px);
+@include spinner-clock("size35", 35px);
+@include spinner-clock("size55", 55px);

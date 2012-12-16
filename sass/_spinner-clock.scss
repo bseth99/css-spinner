@@ -1,12 +1,10 @@
 @import "compass/css3";
 @import "animation";
 
-@mixin spinner($name: null) {
+@mixin spinner-clock($name: null, $size: 35px) {
 
    $class: "";
-   @if $name { $class: ".size#{$name}"; } @else { $name: 35; };
-
-   $size: $name + 0px;
+   @if $name { $class: ".#{$name}"; };
 
    // Need to work with whole numbers
    // when divided by 2, otherwise the wedge
@@ -16,19 +14,19 @@
    $border: ceil(10 * $size / 80);
    $half: $size/2;
 
-   .spinner#{$class} {
+   .spinner.clock#{$class} {
       position: relative;
       height: $size+$border*2;
       width: $size+$border*2;
    }
 
-   .spinner#{$class} > div {
+   .spinner.clock#{$class} > div {
       position: absolute;
       border-style: solid;
       background-color: transparent;
    }
 
-   .spinner#{$class} .circle {
+   .spinner.clock#{$class} .circle {
       width: $size;
       height: $size;
       border: {
@@ -38,23 +36,21 @@
       @include border-radius($size);
    }
 
-   .spinner#{$class} .wedge {
+   .spinner.clock#{$class} .wedge {
       width: 0;
       height: 0;
       border: {
          width: $half+$border;
          color: #999 transparent transparent transparent;
       }
-      @include opacity(0.6);
       @include border-radius($half+$border);
-      @include animation(spinright 1000ms linear 0s infinite);
+      @include animation(clock-spinright 1250ms linear 0s infinite);
 
 
       // This does create a minor artifact in FF.  The idea was
       // to adjust the size of the wedge by sliding another semi-circle
-      // over it to make it look smaller.  There's also another
-      // segment that appears to be chasing the darker wedge.
-      // comment it out or remove this section if you don't like it.
+      // over it to make it look smaller.  Comment it out or remove this section
+      // if you don't like it.
       // or, even better, add a parameter to the mixin to not use it.
 
       &:before, &:after {
@@ -68,24 +64,22 @@
          border: {
             style: solid;
             width: $half+$border;
+            color: transparent #fff #fff #fff;
          }
          @include border-radius($half+$border);
       }
 
       &:before {
-         @include opacity(0.4);
-         border-color: #ccc transparent transparent transparent;
-         @include transform(rotate(-70deg));
+         @include transform(rotate(-30deg));
       }
 
       &:after {
-         border-color: transparent #fff #fff #fff;
-         @include transform(rotate(-50deg));
+         @include transform(rotate(20deg));
       }
 
    }
 
-   .spinner#{$class} .arc {
+   .spinner.clock#{$class} .arc {
       width: $size;
       height: $size;
       border: {
@@ -93,17 +87,17 @@
          color: transparent transparent #bbb transparent;
       }
       @include border-radius($size);
-      @include animation(spinleft 750ms linear 0s infinite);
+      @include animation(clock-spinleft 750ms linear 0s infinite);
    }
 
 }
 
-@include keyframes(spinleft) {
-    from { @include transform(rotate(0deg)); }
-    to { @include transform(rotate(-360deg)); }
+@include keyframes(clock-spinleft) {
+    from { @include rotate(0deg); }
+    to { @include rotate(-360deg); }
 }
 
-@include keyframes(spinright) {
-    from { @include transform(rotate(0deg)); }
-    to { @include transform(rotate(360deg)); }
+@include keyframes(clock-spinright) {
+    from { @include rotate(0deg); }
+    to { @include rotate(360deg); }
 }

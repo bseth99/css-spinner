@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Strict//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+   <title>CSS3-Only Animated Spinner Test - Clock</title>
+
+   <link rel="stylesheet" type="text/css" href="demo.css" />
+   <link rel="stylesheet" type="text/css" href="../css/css-spinner-clock.css" />
+   <link rel="stylesheet" type="text/css" href="../css/css-spinner-clock-custom.css" />
+
+
+</head>
+<body>
+
+<div class="main">
+   <h3>CSS3-Only Spinner Tests - Clock</h3>
+
+   <div>
+      <div>
+        This is the default spinner created without any arguments to the mixin.  It is defined in css-spinner-clock.css.
+        If you do not want to use Sass/Compass, you can just use the CSS file directly.
+      </div>
+
+      <div class="wrapper">
+         <div class="label">@include spinner()</div>
+         <div class="spinner clock">
+            <div class="wedge"></div>
+            <div class="circle"></div>
+            <div class="arc"></div>
+         </div>
+      </div>
+   </div>
+
+   <div>
+      <div>
+        These are tests using different sizes.  css-spinner-clock-custom.css contains these definitions.  Each was created using
+        the arguements to the mixin as labeled below.
+      </div>
+
+      <div class="wrapper">
+         <div class="label">@include spinner("size15", 15)</div>
+         <div class="spinner clock size15">
+            <div class="wedge"></div>
+            <div class="circle"></div>
+            <div class="arc"></div>
+         </div>
+      </div>
+
+      <div class="wrapper">
+         <div class="label">@include spinner("size35", 35)</div>
+         <div class="spinner clock size35">
+            <div class="wedge"></div>
+            <div class="circle"></div>
+            <div class="arc"></div>
+         </div>
+      </div>
+
+      <div class="wrapper">
+         <div class="label">@include spinner("size55", 55)</div>
+         <div class="spinner clock size55">
+            <div class="wedge"></div>
+            <div class="circle"></div>
+            <div class="arc"></div>
+         </div>
+      </div>
+
+   </div>
+</div>
+
+</body>
+</html>

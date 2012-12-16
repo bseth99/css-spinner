@@ -1,0 +1,636 @@
+@-moz-keyframes balls-spin {
+  from {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes balls-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes balls-spin {
+  from {
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-ms-keyframes balls-spin {
+  from {
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes balls-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner.balls.size15 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.spinner.balls.size15 > div {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  top: 0;
+  left: 8px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transform-origin: 0 8px;
+  -moz-transform-origin: 0 8px;
+  -ms-transform-origin: 0 8px;
+  -o-transform-origin: 0 8px;
+  transform-origin: 0 8px;
+  -webkit-animation-name: balls-spin;
+  -moz-animation-name: balls-spin;
+  -ms-animation-name: balls-spin;
+  -o-animation-name: balls-spin;
+  animation-name: balls-spin;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+  -o-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 1500ms;
+  -moz-animation-duration: 1500ms;
+  -ms-animation-duration: 1500ms;
+  -o-animation-duration: 1500ms;
+  animation-duration: 1500ms;
+}
+
+.spinner.balls.size15 > div:nth-of-type(1) {
+  background-color: black;
+  -webkit-animation-delay: 100ms;
+  -moz-animation-delay: 100ms;
+  -ms-animation-delay: 100ms;
+  -o-animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+
+.spinner.balls.size15 > div:nth-of-type(2) {
+  background-color: #0d0d0d;
+  -webkit-animation-delay: 200ms;
+  -moz-animation-delay: 200ms;
+  -ms-animation-delay: 200ms;
+  -o-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+.spinner.balls.size15 > div:nth-of-type(3) {
+  background-color: #1a1a1a;
+  -webkit-animation-delay: 300ms;
+  -moz-animation-delay: 300ms;
+  -ms-animation-delay: 300ms;
+  -o-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+
+.spinner.balls.size15 > div:nth-of-type(4) {
+  background-color: #262626;
+  -webkit-animation-delay: 400ms;
+  -moz-animation-delay: 400ms;
+  -ms-animation-delay: 400ms;
+  -o-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.spinner.balls.size15 > div:nth-of-type(5) {
+  background-color: #333333;
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -ms-animation-delay: 500ms;
+  -o-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+
+.spinner.balls.size35 {
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+
+.spinner.balls.size35 > div {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 0;
+  left: 18px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transform-origin: 0 18px;
+  -moz-transform-origin: 0 18px;
+  -ms-transform-origin: 0 18px;
+  -o-transform-origin: 0 18px;
+  transform-origin: 0 18px;
+  -webkit-animation-name: balls-spin;
+  -moz-animation-name: balls-spin;
+  -ms-animation-name: balls-spin;
+  -o-animation-name: balls-spin;
+  animation-name: balls-spin;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+  -o-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 1500ms;
+  -moz-animation-duration: 1500ms;
+  -ms-animation-duration: 1500ms;
+  -o-animation-duration: 1500ms;
+  animation-duration: 1500ms;
+}
+
+.spinner.balls.size35 > div:nth-of-type(1) {
+  background-color: #555555;
+  -webkit-animation-delay: 100ms;
+  -moz-animation-delay: 100ms;
+  -ms-animation-delay: 100ms;
+  -o-animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+
+.spinner.balls.size35 > div:nth-of-type(2) {
+  background-color: #626262;
+  -webkit-animation-delay: 200ms;
+  -moz-animation-delay: 200ms;
+  -ms-animation-delay: 200ms;
+  -o-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+.spinner.balls.size35 > div:nth-of-type(3) {
+  background-color: #6e6e6e;
+  -webkit-animation-delay: 300ms;
+  -moz-animation-delay: 300ms;
+  -ms-animation-delay: 300ms;
+  -o-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+
+.spinner.balls.size35 > div:nth-of-type(4) {
+  background-color: #7b7b7b;
+  -webkit-animation-delay: 400ms;
+  -moz-animation-delay: 400ms;
+  -ms-animation-delay: 400ms;
+  -o-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.spinner.balls.size35 > div:nth-of-type(5) {
+  background-color: #888888;
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -ms-animation-delay: 500ms;
+  -o-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+
+.spinner.balls.size55 {
+  position: relative;
+  width: 56px;
+  height: 56px;
+}
+
+.spinner.balls.size55 > div {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 0;
+  left: 28px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-transform-origin: 0 28px;
+  -moz-transform-origin: 0 28px;
+  -ms-transform-origin: 0 28px;
+  -o-transform-origin: 0 28px;
+  transform-origin: 0 28px;
+  -webkit-animation-name: balls-spin;
+  -moz-animation-name: balls-spin;
+  -ms-animation-name: balls-spin;
+  -o-animation-name: balls-spin;
+  animation-name: balls-spin;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+  -o-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 1500ms;
+  -moz-animation-duration: 1500ms;
+  -ms-animation-duration: 1500ms;
+  -o-animation-duration: 1500ms;
+  animation-duration: 1500ms;
+}
+
+.spinner.balls.size55 > div:nth-of-type(1) {
+  background-color: #555555;
+  -webkit-animation-delay: 100ms;
+  -moz-animation-delay: 100ms;
+  -ms-animation-delay: 100ms;
+  -o-animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+
+.spinner.balls.size55 > div:nth-of-type(2) {
+  background-color: #626262;
+  -webkit-animation-delay: 200ms;
+  -moz-animation-delay: 200ms;
+  -ms-animation-delay: 200ms;
+  -o-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+.spinner.balls.size55 > div:nth-of-type(3) {
+  background-color: #6e6e6e;
+  -webkit-animation-delay: 300ms;
+  -moz-animation-delay: 300ms;
+  -ms-animation-delay: 300ms;
+  -o-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+
+.spinner.balls.size55 > div:nth-of-type(4) {
+  background-color: #7b7b7b;
+  -webkit-animation-delay: 400ms;
+  -moz-animation-delay: 400ms;
+  -ms-animation-delay: 400ms;
+  -o-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.spinner.balls.size55 > div:nth-of-type(5) {
+  background-color: #888888;
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -ms-animation-delay: 500ms;
+  -o-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+
+.spinner.balls.more {
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+
+.spinner.balls.more > div {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 0;
+  left: 18px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transform-origin: 0 18px;
+  -moz-transform-origin: 0 18px;
+  -ms-transform-origin: 0 18px;
+  -o-transform-origin: 0 18px;
+  transform-origin: 0 18px;
+  -webkit-animation-name: balls-spin;
+  -moz-animation-name: balls-spin;
+  -ms-animation-name: balls-spin;
+  -o-animation-name: balls-spin;
+  animation-name: balls-spin;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+  -o-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 2000ms;
+  -moz-animation-duration: 2000ms;
+  -ms-animation-duration: 2000ms;
+  -o-animation-duration: 2000ms;
+  animation-duration: 2000ms;
+}
+
+.spinner.balls.more > div:nth-of-type(1) {
+  background-color: #555555;
+  -webkit-animation-delay: 100ms;
+  -moz-animation-delay: 100ms;
+  -ms-animation-delay: 100ms;
+  -o-animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+
+.spinner.balls.more > div:nth-of-type(2) {
+  background-color: #626262;
+  -webkit-animation-delay: 200ms;
+  -moz-animation-delay: 200ms;
+  -ms-animation-delay: 200ms;
+  -o-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+.spinner.balls.more > div:nth-of-type(3) {
+  background-color: #6e6e6e;
+  -webkit-animation-delay: 300ms;
+  -moz-animation-delay: 300ms;
+  -ms-animation-delay: 300ms;
+  -o-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+
+.spinner.balls.more > div:nth-of-type(4) {
+  background-color: #7b7b7b;
+  -webkit-animation-delay: 400ms;
+  -moz-animation-delay: 400ms;
+  -ms-animation-delay: 400ms;
+  -o-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.spinner.balls.more > div:nth-of-type(5) {
+  background-color: #888888;
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -ms-animation-delay: 500ms;
+  -o-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+
+.spinner.balls.more > div:nth-of-type(6) {
+  background-color: #959595;
+  -webkit-animation-delay: 600ms;
+  -moz-animation-delay: 600ms;
+  -ms-animation-delay: 600ms;
+  -o-animation-delay: 600ms;
+  animation-delay: 600ms;
+}
+
+.spinner.balls.more > div:nth-of-type(7) {
+  background-color: #a2a2a2;
+  -webkit-animation-delay: 700ms;
+  -moz-animation-delay: 700ms;
+  -ms-animation-delay: 700ms;
+  -o-animation-delay: 700ms;
+  animation-delay: 700ms;
+}
+
+.spinner.balls.more > div:nth-of-type(8) {
+  background-color: #aeaeae;
+  -webkit-animation-delay: 800ms;
+  -moz-animation-delay: 800ms;
+  -ms-animation-delay: 800ms;
+  -o-animation-delay: 800ms;
+  animation-delay: 800ms;
+}
+
+.spinner.balls.more > div:nth-of-type(9) {
+  background-color: #bbbbbb;
+  -webkit-animation-delay: 900ms;
+  -moz-animation-delay: 900ms;
+  -ms-animation-delay: 900ms;
+  -o-animation-delay: 900ms;
+  animation-delay: 900ms;
+}
+
+.spinner.balls.more > div:nth-of-type(10) {
+  background-color: #c8c8c8;
+  -webkit-animation-delay: 1000ms;
+  -moz-animation-delay: 1000ms;
+  -ms-animation-delay: 1000ms;
+  -o-animation-delay: 1000ms;
+  animation-delay: 1000ms;
+}
+
+.spinner.balls.lime {
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+
+.spinner.balls.lime > div {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 0;
+  left: 18px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transform-origin: 0 18px;
+  -moz-transform-origin: 0 18px;
+  -ms-transform-origin: 0 18px;
+  -o-transform-origin: 0 18px;
+  transform-origin: 0 18px;
+  -webkit-animation-name: balls-spin;
+  -moz-animation-name: balls-spin;
+  -ms-animation-name: balls-spin;
+  -o-animation-name: balls-spin;
+  animation-name: balls-spin;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+  -o-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 1500ms;
+  -moz-animation-duration: 1500ms;
+  -ms-animation-duration: 1500ms;
+  -o-animation-duration: 1500ms;
+  animation-duration: 1500ms;
+}
+
+.spinner.balls.lime > div:nth-of-type(1) {
+  background-color: lime;
+  -webkit-animation-delay: 100ms;
+  -moz-animation-delay: 100ms;
+  -ms-animation-delay: 100ms;
+  -o-animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+
+.spinner.balls.lime > div:nth-of-type(2) {
+  background-color: #1aff1a;
+  -webkit-animation-delay: 200ms;
+  -moz-animation-delay: 200ms;
+  -ms-animation-delay: 200ms;
+  -o-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+.spinner.balls.lime > div:nth-of-type(3) {
+  background-color: #33ff33;
+  -webkit-animation-delay: 300ms;
+  -moz-animation-delay: 300ms;
+  -ms-animation-delay: 300ms;
+  -o-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+
+.spinner.balls.lime > div:nth-of-type(4) {
+  background-color: #4dff4d;
+  -webkit-animation-delay: 400ms;
+  -moz-animation-delay: 400ms;
+  -ms-animation-delay: 400ms;
+  -o-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.spinner.balls.lime > div:nth-of-type(5) {
+  background-color: #66ff66;
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -ms-animation-delay: 500ms;
+  -o-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+
+.spinner.balls.colors {
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+
+.spinner.balls.colors > div {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 0;
+  left: 18px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transform-origin: 0 18px;
+  -moz-transform-origin: 0 18px;
+  -ms-transform-origin: 0 18px;
+  -o-transform-origin: 0 18px;
+  transform-origin: 0 18px;
+  -webkit-animation-name: balls-spin;
+  -moz-animation-name: balls-spin;
+  -ms-animation-name: balls-spin;
+  -o-animation-name: balls-spin;
+  animation-name: balls-spin;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+  -o-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 1500ms;
+  -moz-animation-duration: 1500ms;
+  -ms-animation-duration: 1500ms;
+  -o-animation-duration: 1500ms;
+  animation-duration: 1500ms;
+}
+
+.spinner.balls.colors > div:nth-of-type(1) {
+  background-color: #ff3300;
+  -webkit-animation-delay: 100ms;
+  -moz-animation-delay: 100ms;
+  -ms-animation-delay: 100ms;
+  -o-animation-delay: 100ms;
+  animation-delay: 100ms;
+}
+
+.spinner.balls.colors > div:nth-of-type(2) {
+  background-color: #99ff00;
+  -webkit-animation-delay: 200ms;
+  -moz-animation-delay: 200ms;
+  -ms-animation-delay: 200ms;
+  -o-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+.spinner.balls.colors > div:nth-of-type(3) {
+  background-color: #00ff99;
+  -webkit-animation-delay: 300ms;
+  -moz-animation-delay: 300ms;
+  -ms-animation-delay: 300ms;
+  -o-animation-delay: 300ms;
+  animation-delay: 300ms;
+}
+
+.spinner.balls.colors > div:nth-of-type(4) {
+  background-color: #0033ff;
+  -webkit-animation-delay: 400ms;
+  -moz-animation-delay: 400ms;
+  -ms-animation-delay: 400ms;
+  -o-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.spinner.balls.colors > div:nth-of-type(5) {
+  background-color: magenta;
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -ms-animation-delay: 500ms;
+  -o-animation-delay: 500ms;
+  animation-delay: 500ms;
+}

@@ -1,0 +1,10 @@
+@import "spinner-balls";
+
+@include spinner-balls("size15", 15px, 5, #000);
+@include spinner-balls("size35", 35px);
+@include spinner-balls("size55", 55px);
+
+@include spinner-balls("more", 35px, 10);
+
+@include spinner-balls("lime", 35px, 5, lime);
+@include spinner-balls("colors", 35px, 5, rainbow);
